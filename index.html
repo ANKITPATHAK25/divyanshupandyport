@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aditi Yadav - Model, Dancer, Actor</title>
+    <!-- Load Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Use Inter Font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap">
+    <style>
+        /* Apply Inter font and dark background globally */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #111827; /* Darker background for dramatic effect */
+            color: #f7fafc; /* Light text */
+        }
+        /* Custom scrollbar for better aesthetics */
+        body::-webkit-scrollbar {
+            width: 8px;
+        }
+        body::-webkit-scrollbar-thumb {
+            background-color: #ec4899; /* Fuchsia Accent */
+            border-radius: 4px;
+        }
+        body::-webkit-scrollbar-track {
+            background-color: #1f2937; /* Darker gray */
+        }
+        .section-padding {
+            padding: 5rem 1rem;
+        }
+        .text-accent {
+            color: #ec4899; /* Fuchsia Accent */
+        }
+        .bg-accent {
+             background-color: #ec4899; /* Fuchsia Accent */
+        }
+        .shadow-accent-glow {
+            box-shadow: 0 0 15px rgba(236, 72, 153, 0.5);
+        }
+        .hover\:shadow-accent-glow:hover {
+             box-shadow: 0 0 25px rgba(236, 72, 153, 0.8);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header & Navigation -->
+    <header class="sticky top-0 z-50 bg-gray-900 shadow-xl bg-opacity-95 backdrop-blur-sm">
+        <nav class="container mx-auto max-w-7xl px-4 py-4 flex justify-between items-center">
+            <h1 class="text-2xl font-extrabold text-accent tracking-wider">
+                ADITI YADAV
+            </h1>
+            <!-- Desktop Navigation -->
+            <div class="hidden md:flex space-x-6 text-sm font-medium">
+                <a href="#about" class="hover:text-accent transition duration-300">About</a>
+                <a href="#gallery" class="hover:text-accent transition duration-300">Gallery</a>
+                <a href="#experience" class="hover:text-accent transition duration-300">Experience</a>
+                <a href="#contact" class="hover:text-accent transition duration-300">Contact</a>
+                <!-- <a href="#" class="px-3 py-1 bg-accent text-gray-900 rounded-full font-semibold hover:bg-pink-300 transition duration-300 shadow-lg">View Portfolio PDF</a> -->
+            </div>
+            <!-- Mobile Menu Placeholder -->
+            <div class="md:hidden">
+                <button class="text-white focus:outline-none">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+                </button>
+            }
+        </nav>
+    </header>
+
+    <main>
+        <!-- 1. Hero Section -->
+        <section id="hero" class="section-padding min-h-[85vh] flex items-center justify-center text-center bg-gray-900/50">
+            <div class="max-w-4xl px-4">
+                <p class="text-xl font-medium text-accent mb-4 uppercase tracking-widest">Model | Dancer | Actor</p>
+                <h2 class="text-6xl sm:text-8xl font-extrabold leading-tight tracking-tighter mb-6">
+                    ADITI <span class="text-accent">YADAV</span>
+                </h2>
+                <p class="text-2xl sm:text-3xl text-gray-300 italic mb-10">
+                    "Passion meets Performance."
+                </p>
+                <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
+                    <a href="#gallery" class="inline-block px-10 py-4 bg-accent text-gray-900 font-bold rounded-xl shadow-accent-glow hover:bg-pink-300 transition duration-300 transform hover:scale-[1.05]">
+                        View Photos & Reels
+                    </a>
+                    <a href="#contact" class="inline-block px-10 py-4 border-2 border-accent text-accent font-bold rounded-xl shadow-md hover:bg-gray-800 transition duration-300 transform hover:scale-[1.05]">
+                        Bookings & Enquiries
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <hr class="border-gray-800 max-w-7xl mx-auto">
+
+        <!-- 2. About Me Section (The provided bio content) -->
+        <section id="about" class="section-padding">
+            <div class="container mx-auto max-w-7xl px-4">
+                <h3 class="text-4xl font-bold mb-10 text-center uppercase">
+                    My <span class="text-accent">Journey</span> & Dream
+                </h3>
+
+                <div class="grid md:grid-cols-3 gap-10 items-center">
+                    <!-- Placeholder Visual -->
+                    <div class="md:col-span-1 flex justify-center order-2 md:order-1">
+                        <!-- A frame for a main headshot -->
+                        <div class="w-64 h-64 bg-gray-700 rounded-full flex items-center justify-center text-gray-400 text-sm border-4 border-accent shadow-accent-glow">
+                        <img src="assets/img/sammy-swae-7xIJ-HRelWc-unsplash.jpg" alt="Aditi Yadav Main Headshot" class="w-full h-full object-cover rounded-full shadow-lg border-2 border-gray-800">
+                        </div>
+                    </div>
+
+                    <!-- Description -->
+                    <div class="md:col-span-2 text-xl leading-relaxed order-1 md:order-2">
+                        <p class="mb-6 font-semibold">
+                            Hello! I am **Aditi Yadav**. I am from Deoria, Uttar Pradesh, 274001.
+                        </p>
+                        <p class="mb-6 text-gray-300">
+                            I have a dream of becoming an actress in our **Bollywood industry** and a model who can represent our country at an **international level**, and I know I can do it one day.
+                        </p>
+                        <p class="mb-8 font-light italic text-sm">
+                            Keep supporting me; I will be thankful for all your efforts. Thank you... 🥰❤️
+                        </p>
+                        <div class="text-center md:text-left">
+                            <span class="inline-block bg-gray-800 text-accent text-xs font-semibold px-3 py-1 rounded-full mr-2">#india</span>
+                            <span class="inline-block bg-gray-800 text-accent text-xs font-semibold px-3 py-1 rounded-full">#bollywood</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr class="border-gray-800 max-w-7xl mx-auto">
+
+        <!-- 3. Skills & Physical Attributes Section -->
+        <section id="skills" class="section-padding">
+            <div class="container mx-auto max-w-7xl px-4">
+                <h3 class="text-4xl font-bold mb-10 text-center uppercase">
+                    Core <span class="text-accent">Capabilities</span>
+                </h3>
+                
+                <div class="grid md:grid-cols-3 gap-8">
+                    
+                    <!-- Card 1: Modeling -->
+                    <div class="bg-gray-800 p-6 rounded-xl shadow-2xl border-t-4 border-accent text-center hover:shadow-accent-glow transition duration-300">
+                        <div class="text-5xl mb-3">📸</div>
+                        <h4 class="font-bold text-2xl mb-2 text-accent">MODELING</h4>
+                        <ul class="text-gray-400 list-none space-y-1 text-sm">
+                            <li>Fashion & Editorial</li>
+                            <li>Commercial & Print</li>
+                            <li>Runway Experience (Placeholder)</li>
+                            <li>High-Fashion Posing</li>
+                        </ul>
+                    </div>
+
+                    <!-- Card 2: Dancing -->
+                    <div class="bg-gray-800 p-6 rounded-xl shadow-2xl border-t-4 border-accent text-center hover:shadow-accent-glow transition duration-300">
+                        <div class="text-5xl mb-3">💃</div>
+                        <h4 class="font-bold text-2xl mb-2 text-accent">DANCING</h4>
+                        <ul class="text-gray-400 list-none space-y-1 text-sm">
+                            <li>Bollywood/Freestyle</li>
+                            <li>Contemporary</li>
+                            <li>Kathak (Placeholder)</li>
+                            <li>Choreography Experience</li>
+                        </ul>
+                    </div>
+                    
+                    <!-- Card 3: Acting -->
+                    <div class="bg-gray-800 p-6 rounded-xl shadow-2xl border-t-4 border-accent text-center hover:shadow-accent-glow transition duration-300">
+                        <div class="text-5xl mb-3">🎬</div>
+                        <h4 class="font-bold text-2xl mb-2 text-accent">ACTING</h4>
+                        <ul class="text-gray-400 list-none space-y-1 text-sm">
+                            <li>Hindi Dialogue (Fluent)</li>
+                            <li>Emotional Range</li>
+                            <li>Improvisation</li>
+                            <li>Theater/Short Film Experience (Placeholder)</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <hr class="border-gray-800 max-w-7xl mx-auto">
+
+        <!-- 4. Gallery/Visuals Section (Replaced Projects) -->
+        <section id="gallery" class="section-padding">
+            <div class="container mx-auto max-w-7xl px-4">
+                <h3 class="text-4xl font-bold mb-10 text-center uppercase">
+                    Visual <span class="text-accent">Gallery</span> & Showreel
+                </h3>
+
+                <p class="text-center text-gray-400 mb-8">
+                    A glimpse into my diverse looks and performance styles. (Replace the placeholders below with actual image/video thumbnails.)
+                </p>
+
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                    
+                    <!-- Image/Video Card 1 (Modeling) -->
+                    <div class="relative aspect-square bg-gray-700 rounded-lg overflow-hidden border border-gray-600 hover:border-accent hover:scale-[1.02] transition duration-300 group">
+                        <div class="flex items-center justify-center h-full text-sm text-gray-300">Modeling Look 1</div>
+                        <p class="absolute bottom-0 left-0 right-0 bg-black bg-opacity-60 text-white text-xs p-2 transform translate-y-full group-hover:translate-y-0 transition duration-300">Editorial Fashion Shot</p>
+                    </div>
+
+                    <!-- Image/Video Card 2 (Dance) -->
+                    <div class="relative aspect-square bg-gray-700 rounded-lg overflow-hidden border border-gray-600 hover:border-accent hover:scale-[1.02] transition duration-300 group">
+                        <div class="flex items-center justify-center h-full text-sm text-gray-300">Dance Video Clip</div>
+                         <p class="absolute bottom-0 left-0 right-0 bg-black bg-opacity-60 text-white text-xs p-2 transform translate-y-full group-hover:translate-y-0 transition duration-300">Bollywood Style Reel</p>
+                    </div>
+
+                    <!-- Image/Video Card 3 (Acting) -->
+                    <div class="relative aspect-square bg-gray-700 rounded-lg overflow-hidden border border-gray-600 hover:border-accent hover:scale-[1.02] transition duration-300 group">
+                        <div class="flex items-center justify-center h-full text-sm text-gray-300">Acting Scene</div>
+                         <p class="absolute bottom-0 left-0 right-0 bg-black bg-opacity-60 text-white text-xs p-2 transform translate-y-full group-hover:translate-y-0 transition duration-3S00">Monologue Performance</p>
+                    </div>
+
+                    <!-- Image/Video Card 4 (Commercial) -->
+                    <div class="relative aspect-square bg-gray-700 rounded-lg overflow-hidden border border-gray-600 hover:border-accent hover:scale-[1.02] transition duration-300 group">
+                        <div class="flex items-center justify-center h-full text-sm text-gray-300">Commercial Look</div>
+                         <p class="absolute bottom-0 left-0 right-0 bg-black bg-opacity-60 text-white text-xs p-2 transform translate-y-full group-hover:translate-y-0 transition duration-300">Product Shoot</p>
+                    </div>
+
+                </div>
+                
+                <div class="text-center mt-8">
+                     <!-- Link to Aditi's YouTube Channel -->
+                     <a href="https://youtube.com/@miss.gulaboo728?si=dW0p99VIeK-mPBR9" target="_blank" class="inline-block px-8 py-3 bg-gray-800 text-accent font-bold rounded-lg shadow-md border border-accent hover:bg-gray-700 transition duration-300">
+                        View Dance Reels & Showreel &rarr;
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <hr class="border-gray-800 max-w-7xl mx-auto">
+
+        <!-- 5. Contact Section -->
+        <section id="contact" class="section-padding">
+            <div class="container mx-auto max-w-4xl px-4 text-center">
+                <h3 class="text-4xl font-bold mb-4 uppercase">
+                    Collaborate <span class="text-accent">with Aditi</span>
+                </h3>
+                <p class="text-xl text-gray-400 mb-10">
+                    For professional inquiries, collaborations, and bookings, please reach out directly.
+                </p>
+
+                <form class="space-y-6 bg-gray-800 p-8 rounded-xl shadow-2xl border border-gray-700">
+                    <div>
+                        <input type="text" placeholder="Your Name/Agency" class="w-full p-3 rounded-lg bg-gray-900 border border-gray-700 focus:ring-accent focus:border-accent transition duration-300" required>
+                    </div>
+                    <div>
+                        <input type="email" placeholder="Your Email Address" class="w-full p-3 rounded-lg bg-gray-900 border border-gray-700 focus:ring-accent focus:border-accent transition duration-300" required>
+                    </div>
+                    <div>
+                        <textarea placeholder="Tell me about the project or role" rows="5" class="w-full p-3 rounded-lg bg-gray-900 border border-gray-700 focus:ring-accent focus:border-accent transition duration-300" required></textarea>
+                    </div>
+                    <button type="submit" class="w-full sm:w-1/2 px-8 py-3 bg-accent text-gray-900 font-bold rounded-lg shadow-accent-glow hover:bg-pink-300 transition duration-300 transform hover:scale-[1.01]">
+                        Send Inquiry
+                    </button>
+                    <p class="text-sm text-gray-500 pt-2">
+                        *Note: This form is a visual placeholder and will not send an email in this preview.*
+                    </p>
+                </form>
+
+                <div class="mt-10 text-lg space-y-4 sm:space-y-0 sm:space-x-8 sm:flex justify-center">
+                    <a href="mailto:aditi.yadav.official@example.com" class="block hover:text-accent transition duration-300 font-semibold">
+                        Email: aditi.yadav.official@example.com
+                    </a>
+                    <a href="https://youtube.com/@miss.gulaboo728?si=dW0p99VIeK-mPBR9" target="_blank" class="block hover:text-accent transition duration-300 font-semibold">
+                        YouTube Channel &rarr;
+                    </a>
+                    <!-- UPDATED: Link to Aditi's Instagram Channel -->
+                    <a href="https://www.instagram.com/miss.gulaboo_?igsh=amc3MGR2cTl3ZnU5" target="_blank" class="block hover:text-accent transition duration-300 font-semibold">
+                        Instagram: @miss.gulaboo_ &rarr;
+                    </a>
+                </div>
+                 <p class="text-sm text-gray-500 mt-6">
+                    Location: Deoria, Uttar Pradesh, 274001
+                </p>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 py-8 mt-12">
+        <div class="container mx-auto px-4 text-center text-gray-500 text-sm">
+            &copy; 2025 Aditi Yadav. All Rights Reserved.
+        </div>
+    </footer>
+</body>
+</html>
+
